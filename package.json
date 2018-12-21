@@ -1,0 +1,33 @@
+{
+  "name": "calculate-css-rule",
+  "version": "1.0.0",
+  "description": "calculate css rule",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeeeeeM/calculate-css-rule.git"
+  },
+  "keywords": [
+    "css",
+    "style"
+  ],
+  "author": "L6e.M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeeeeeM/calculate-css-rule/issues"
+  },
+  "homepage": "https://github.com/LeeeeeeM/calculate-css-rule#readme",
+  "dependencies": {
+    "css-what": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "rollup": "^0.68.1"
+  }
+}
