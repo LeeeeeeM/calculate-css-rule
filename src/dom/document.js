@@ -2,8 +2,12 @@
 /**
  * 整个DOM的dom类 doc
  */
-export class Document {
+
+import Node from './node'
+
+export default class Document extends Node {
   constructor() {
+    super(...arguments)
     this.body = null // 返回body节点
   }
 }

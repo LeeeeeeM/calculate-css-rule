@@ -2,10 +2,14 @@
 /**
  * 文本节点，特殊节点。   <span>xxxx</span>  xxxx就是文本节点
  */
-export class Text {
-  constructor(text) {
-    this._nodeType = ''
-    this._nodeName = '#text'
-    this._textContent = text
+
+import Node from './node'
+
+export default class Text extends Node {
+  constructor() {
+    super(...arguments)
+    this.nodeType = ''
+    this.nodeName = '#text'
+    this.textContent = null
   }
 }

@@ -2,8 +2,11 @@
 /**
  * HTML类，作为document的根元素 即HTML元素
  */
-export class DocumentElement {
-  constructor() {
 
+import Node from './node'
+
+export default class DocumentElement extends Node {
+  constructor() {
+    super(...arguments)
   }
 }

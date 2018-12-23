@@ -2,8 +2,11 @@
 /**
  * DOM 属性类，直接挂载到element上的属性
  */
-export class Element {
+import Node from './node'
+
+export default class Element extends Node {
   constructor() {
+    super(...arguments)
     this.classList = []
     this.attributes = {}
     this.id = null

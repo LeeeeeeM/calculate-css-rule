@@ -3,7 +3,7 @@
  * 节点类型
  */
 
-export const nodeTypeMap = {
+export const NodeTypeMap = {
   ELEMENT_NODE: 1,  // element元素节点
   ATTRIBUTE_NODE: 2,
   TEXT_NODE: 3, // text文本节点
@@ -15,5 +15,7 @@ export const nodeTypeMap = {
   DOCUMENT_NODE: 9, // DOM节点
   DOCUMENT_TYPE_NODE:	10,
   DOCUMENT_FRAGMENT_NODE: 11, // fragment节点
-  NOTATION_NODE: 12
+  NOTATION_NODE: 12,
+  /* extra */
+  UNKNOWN: 1000
 }
